@@ -27,6 +27,7 @@
     btop
     fastfetch
     gcc
+    statix
     nil
     nh
     nix-search-tv
