@@ -45,10 +45,7 @@
     file-roller # unzip
     baobab # analyse disk usage in gnome env
     loupe # image viewer
-
-    mpv
-    celluloid
-
-    tor-browser
+    showtime # video player
+    snapshot # camera app
   ];
 }
