@@ -1,5 +1,6 @@
 {
   imports = [
+    ./kanata.nix
     ./audio.nix
     ./bluetooth.nix
     ./networking.nix
