@@ -5,6 +5,6 @@
   programs.nh.clean = {
     enable = true;
     dates = "weekly";
-    extraOptions = "--keep 2 --keep-since 3d";
+    extraArgs = "--keep 2 --keep-since 3d";
   };
 }
