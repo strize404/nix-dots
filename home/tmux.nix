@@ -9,9 +9,7 @@
       set -g mouse on
       set -g prefix ^u
       set -g base-index 1              # start indexing windows at 1 instead of 0
-      set -g detach-on-destroy off     # don't exit from tmux when closing a session
       set -g escape-time 0             # zero-out escape time delay
-      set -g history-limit 1000000     # increase history size (from 2,000)
       set -g renumber-windows on       # renumber all windows when any window is closed
       set -g set-clipboard on          # use system clipboard
       set -g status-position top       # macOS / darwin style
@@ -23,8 +21,6 @@
       set -g @plugin 'tmux-plugins/tpm'
       set -g @plugin 'tmux-plugins/tmux-sensible'
       set -g @plugin 'tmux-plugins/tmux-yank'
-      #set -g @plugin 'tmux-plugins/tmux-resurrect'
-      #set -g @plugin 'tmux-plugins/tmux-continuum'
       set -g @plugin 'christoomey/vim-tmux-navigator'
       set -g @vim_navigator_mapping_left "C-Left C-h"  # use C-h and C-Left
       set -g @vim_navigator_mapping_right "C-Right C-l"
@@ -34,24 +30,8 @@
       set -g @plugin 'fcsonline/tmux-thumbs'
       set -g @plugin 'sainnhe/tmux-fzf'
       set -g @plugin 'wfxr/tmux-fzf-url'
+
       set -g @plugin 'omerxx/catppuccin-tmux' # My fork that holds the meetings script bc I'm lazy af
-      set -g @plugin 'omerxx/tmux-sessionx'
-      set -g @plugin 'omerxx/tmux-floax'
-      set -g @floax-width '80%'
-      set -g @floax-height '80%'
-      set -g @floax-border-color 'magenta'
-      set -g @floax-text-color 'blue'
-      set -g @floax-bind 'p'
-      set -g @floax-change-path 'true'
-      set -g @sessionx-bind-zo-new-window 'ctrl-y'
-      set -g @sessionx-auto-accept 'off'
-      set -g @sessionx-bind 'o'
-      set -g @sessionx-x-path '~/dotfiles'
-      set -g @sessionx-window-height '85%'
-      set -g @sessionx-window-width '75%'
-      set -g @sessionx-zoxide-mode 'on'
-      set -g @sessionx-custom-paths-subdirectories 'false'
-      set -g @sessionx-filter-current 'false'
       set -g @continuum-restore 'on'
       set -g @resurrect-strategy-nvim 'session'
       set -g @catppuccin_window_left_separator ""
