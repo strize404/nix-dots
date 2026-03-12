@@ -23,9 +23,12 @@
     atuin
     lazygit
     eza
+    fd
     fzf
+    ripgrep
     bat
     btop
+    systemctl-tui
     fastfetch
     gcc
 
