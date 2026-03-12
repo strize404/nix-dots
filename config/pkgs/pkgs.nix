@@ -49,6 +49,5 @@
     baobab # analyse disk usage in gnome env
     loupe # image viewer
     showtime # video player
-    snapshot # camera app
   ];
 }

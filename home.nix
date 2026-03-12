@@ -14,9 +14,12 @@
 
   home.packages = with pkgs; [
     audacity
+    obs-studio
     krita
-    beeper
-    nur.repos.lonerOrz.helium
+    # beeper
+    nur.repos.forkprince.beeper-nightly
+    nur.repos.forkprince.helium-nightly
+    # nur.repos.lonerOrz.helium
     #nur.repos.AusCyber.zen-browser
   ];
 
@@ -35,8 +38,8 @@
   programs = {
     npm.enable = true;
     bun.enable = true;
-    # opencode.enable = true;
-    vscode.enable = true;
+    opencode.enable = true;
+    # vscode.enable = true;
   };
 
   home.sessionVariables = {
