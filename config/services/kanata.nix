@@ -6,78 +6,78 @@
       kanata.config = ''
         (defsrc
 
-        esc            f1   f2   f3   f4             f5    f6    f7    f8          f9   f10  f11   f12
-        grv       1      2    3      4      5       6     7      8     9      0       -      =    bspc
-        tab       q      w    e      r      t       y     u      i     o      p       [      ]       \
-        caps      a      s    d      f      g       h     j      k     l      ;       '          enter
-        lsft      z      x    c      v      b       n     m      ,     .      /                   rsft           up
-        lctl      lmet   lalt             spc                  ralt        rmet                   rctl      lft down rght
+          esc            f1   f2   f3   f4             f5    f6    f7    f8          f9   f10  f11   f12
+          grv       1      2    3      4      5       6     7      8     9      0       -      =    bspc
+          tab       q      w    e      r      t       y     u      i     o      p       [      ]       \
+          caps      a      s    d      f      g       h     j      k     l      ;       '          enter
+          lsft      z      x    c      v      b       n     m      ,     .      /                   rsft           up
+          lctl      lmet   lalt             spc                  ralt        rmet                   rctl      lft down rght
 
         )
 
         (deflayer default
 
-        esc            f1   f2   f3   f4               f5    f6    f7    f8          f9   f10  f11   f12
-        grv       1      2    3      4       5       6     7      8     9      0       -      =     bspc
-        tab       q      w    f      g       b       ,     y     @l    @u      .       [      ]        \
-        bspc     @a     @r   @s     @t       d       h    @n     @e    @i     @o       '           enter
-        @sbl     z      x    p      @c       j       v     m      k     /      ;                    rsft         up
-        lctl      lmet   lalt              @sl                 ralt        rmet                     rctl    lft down rght
+          @qwer          f1   f2   f3   f4               f5    f6    f7    f8          f9   f10  f11   f12
+          grv       1      2    3      4      5       6     7      8     9      0       -      =     bspc
+          tab       q      w    f      g      b       ,     y      l    @u      .       [      ]        \
+          bspc     @a     @r   @s     @t      d       h    @n     @e    @i     @o       '           enter
+          @sbl      z      x    p     @c      j       v     m      k     /      ;                    rsft          up      
+          XX       XX     XX                 @sl                 XX           XX                       XX     lft down rght
 
         )
 
-        (deflayer c
+        (deflayer qwerty
 
-        esc            f1   f2   f3   f4             f5    f6    f7    f8          f9   f10  f11   f12
-        grv       1      2    3      4      5       6     7      8     9      0       -      =    bspc
-        tab       q      w    e      r      t       y     u      i     o      p       [      ]       \
-        caps      a      s    d      f      lctl    ;     C-h    C-j   C-k    C-l     '          enter
-        lsft      z      x    c      v      b       n     m      ,     .      /                   rsft           up
-        lctl      lmet   lalt             spc                  ralt        rmet                   rctl      lft down rght
-
-        )
-
-        (deflayer l
-
-        esc            f1   f2   f3   f4             f5    f6    f7    f8          f9   f10  f11   f12
-        grv       1      2    3      4      5       6     7      8     9      0       -      =    bspc
-        tab       A-1    A-2  A-3    A-4    A-5     A-6   C-8  A-8   S-f10  S-f10   S--    S-=     \
-        caps      C-1    C-2  C-3    C-4    C-5     C-6   C-7    j     k      l       '          enter
-        lsft      z      x    c      v      b       n     m      ,     .      /                   rsft           up
-        lctl      lmet   lalt             spc                  ralt        rmet                   rctl      lft down rght
-
-        )
-
-        (deflayer u
-
-        esc            f1   f2   f3   f4             f5    f6    f7    f8          f9   f10  f11   f12
-        grv       1      2    3      4      5       6     7      8     9      0       -      =    bspc
-        tab       A-1    A-2  A-3    A-4    A-5     A-6   A-7  A-8   S-f10  S-f10   S--    S-=     \
-        caps      A-1    A-2  A-3    A-4    A-5     A-6   A-7    j     k      l       '          enter
-        lsft      z      x    c      v      b       n     m      ,     .      /                   rsft           up
-        lctl      lmet   lalt             spc                  ralt        rmet                   rctl      lft down rght
+          @def           f1   f2   f3   f4             f5    f6    f7    f8          f9   f10  f11   f12
+          grv       1      2    3      4      5       6     7      8     9      0       -      =    bspc
+          tab       q      w    e      r      t       y     u      i     o      p       [      ]       \
+          caps      a      s    d      f      g       h     j      k     l      ;       '          enter
+          lsft      z      x    c      v      b       n     m      ,     .      /                   rsft           up
+          lctl      lmet   lalt               spc                ralt        rmet                   rctl      lft down rght
 
         )
 
         (deflayer sl
 
-        esc            f1   f2   f3   f4             f5    f6    f7    f8          f9   f10  f11   f12
-        grv       f1     f2   f3     f4     f5      f6    f7     f8    f9     f10    f11     f12  caps
-        tab       1      2    3      4      5       6     7      8     9      0      -       =       \
-        enter     \      grv  lsft   lctl   /       ;     lft    down  up     rght    '          enter
-        tab       z      x    ,      ,      S-/     .     S-;    m     /      ;                   rsft           up
-        lctl      lmet   lalt             spc                  ralt        rmet                   rctl      lft down rght
+          XX            XX    XX    XX     XX           XX     XX     XX    XX       XX    XX    XX    XX
+          XX        f1     f2   f3     f4     f5      f6    f7     f8    f9     f10    f11     f12  caps
+          XX        1      2    3      4      5       6     7      8     9      0      -       =       XX
+          enter     \      grv  lsft   lctl   /       ;     lft    down  up     rght    '              XX
+          tab       z      x    ,      ,      S-/     .     S-;    m     /      ;                      XX          XX
+          XX       XX     XX               XX                     XX           XX                       XX    XX   XX   XX
 
         )
 
         (deflayer sbl
 
-          esc            f1   f2   f3   f4               f5    f6    f7    f8          f9   f10  f11   f12
-          grv       S-1    S-2  S-3    S-4     S-5     S-6   S-7    S-8   S-9    S-0     S--    S-=   bspc
+          XX            XX    XX    XX     XX           XX     XX     XX    XX       XX    XX    XX    XX
+          grv       S-1    S-2  S-3    S-4     S-5     S-6   S-7    S-8   S-9    S-0     S--    S-=    XX
           tab       S-1    S-2  S-3    S-4     S-5     S-6   S-7    S-8   S-f10  S-f10   S--    S-=     \
-          bspc      S-,    S-.  lsft   lctl    del     [     S-9    -     =      S-0     ]           enter
-          lsft      z      x    c      v       ,       b     k      m     /      ;                    rsft         up
-          lctl      lmet   lalt               spc                ralt        rmet                     rctl    lft down rght
+          bspc      S-,    S-.  lsft   lctl    del     [     S-9    -     =      S-0     ]             XX 
+          XX        XX     XX   XX     XX     XX      XX   XX      XX    XX     XX                      XX         XX
+          XX       XX     XX               XX                     XX           XX                       XX    XX   XX   XX
+
+        )
+
+        (deflayer c
+
+          XX            XX    XX    XX     XX           XX     XX     XX    XX       XX    XX    XX    XX
+          XX        XX     XX   XX     XX     XX      XX   XX      XX    XX     XX       XX        XX   XX
+          XX        XX     XX   XX     XX     XX      XX   XX      XX    XX     XX       XX        XX   XX
+          XX        XX     XX   XX     XX     XX      XX   C-h     C-j   C-k    C-l      XX             XX
+          XX        XX     XX   XX     XX     XX      XX   XX      XX    XX     XX                      XX         XX
+          XX       XX     XX                   XX                 XX           XX                       XX    XX   XX   XX
+
+        )
+
+        (deflayer u
+
+          XX            XX    XX    XX     XX           XX     XX     XX    XX       XX    XX    XX    XX
+          XX        XX     XX   XX     XX     XX      XX   XX      XX    XX     XX       XX        XX   XX
+          XX        A-1    A-2  A-3    A-4    A-5     A-6  A-7     A-8   XX     XX       XX        XX   XX
+          XX        C-1    C-2  C-3    C-4    C-5     C-6  C-7     C-8   XX     XX       XX             XX
+          XX        XX     XX   XX     XX     XX      XX   XX      XX    XX     XX                      XX         XX
+          XX       XX     XX               XX                     XX           XX                       XX    XX   XX   XX
 
         )
 
@@ -87,6 +87,8 @@
         )
 
         (defalias
+          qwer (layer-switch qwerty)
+          def (layer-switch default)
           a (tap-hold $tap-time $hold-time a lmet)
           r (tap-hold $tap-time $hold-time r lalt)
           s (tap-hold $tap-time $hold-time s lsft)
@@ -99,7 +101,6 @@
           sl  (tap-hold $tap-time $hold-time spc (layer-toggle sl))
           c   (tap-hold $tap-time $hold-time c (layer-toggle c))
           u   (tap-hold $tap-time $hold-time u (layer-toggle u))
-          l   (tap-hold $tap-time $hold-time l (layer-toggle l))
         )
       '';
     };
