@@ -16,6 +16,8 @@
     audacity
     obs-studio
     krita
+    nur.repos.forkprince.gimp
+    blender
     # beeper
     nur.repos.forkprince.beeper-nightly
     nur.repos.forkprince.helium-nightly
