@@ -11,6 +11,7 @@
     ./../../hardware
     ./../../modules
     ./../../services/universal
+    ./../../services/deskonly
   ];
 
   #enable flakes
