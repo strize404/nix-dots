@@ -3,6 +3,5 @@
     ./bootloader
     ./DEs
     ./pkgs
-    ./services
   ];
 }

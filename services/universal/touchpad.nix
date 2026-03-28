@@ -1,4 +1,4 @@
-{config, pkgs, ... }:
+{ config, pkgs, ... }:
 
 {
   # Enable touchpad support (enabled default in most desktopManager).
@@ -7,6 +7,11 @@
     touchpad = {
       tapping = true;
       scrollMethod = "twofinger";
+      naturalScrolling = true;
+    };
+    mouse = {
+      tapping = true;
+      middleEmulation = true;
       naturalScrolling = true;
     };
   };

@@ -39,20 +39,36 @@
     in
     {
       nixosConfigurations = {
-        strize = nixpkgs.lib.nixosSystem {
+        strize-desk = nixpkgs.lib.nixosSystem {
           inherit system;
           modules = [
-            ./configuration.nix
+            ./hosts/desktop/configuration.nix
+          ];
+        };
+
+        strize-lap = nixpkgs.lib.nixosSystem {
+          inherit system;
+          modules = [
+            ./hosts/laptop/configuration.nix
           ];
         };
       };
 
       homeConfigurations = {
-        strize-home = home-manager.lib.homeManagerConfiguration {
+        home-desk = home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
           modules = [
-            ./home.nix
-            ./home
+            ./hosts/desktop/home.nix
+            ./home-config
+          ];
+          extraSpecialArgs = { inherit inputs; };
+        };
+
+        home-lap = home-manager.lib.homeManagerConfiguration {
+          inherit pkgs;
+          modules = [
+            ./hosts/laptop/home.nix
+            ./home-config
           ];
           extraSpecialArgs = { inherit inputs; };
         };

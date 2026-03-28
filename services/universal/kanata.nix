@@ -21,7 +21,7 @@
           grv       1      2    3      4      5       6     7      8     9      0       -      =     bspc
           tab       q      w    f      g      b       ,     y      l    @u      .       [      ]        \
           bspc     @a     @r   @s     @t      d       h    @n     @e    @i     @o       '           enter
-          @sbl      z      x    p     @c      j       v     m      k     /      ;                    rsft          up      
+          @sbl      z      x    p     @c      j       v     m      k     /      ;                    rsft          up
           XX       XX     XX                 @sl                 XX           XX                       XX     lft down rght
 
         )
@@ -41,9 +41,9 @@
 
           XX            XX    XX    XX     XX           XX     XX     XX    XX       XX    XX    XX    XX
           XX        f1     f2   f3     f4     f5      f6    f7     f8    f9     f10    f11     f12  caps
-          XX        1      2    3      4      5       6     7      8     9      0      -       =       XX
-          enter     \      grv  lsft   lctl   /       ;     lft    down  up     rght    '              XX
-          tab       z      x    ,      ,      S-/     .     S-;    m     /      ;                      XX          XX
+          XX        1      2    3      4      5       6     7      8     9      0      XX      XX      XX
+          enter     \      grv  lsft   lctl   /       ;     lft    down  up     rght   XX              XX
+          tab       XX     XX   XX     ,      S-/     .     S-;    XX    XX     XX                     XX          XX
           XX       XX     XX               XX                     XX           XX                       XX    XX   XX   XX
 
         )
@@ -51,9 +51,9 @@
         (deflayer sbl
 
           XX            XX    XX    XX     XX           XX     XX     XX    XX       XX    XX    XX    XX
-          grv       S-1    S-2  S-3    S-4     S-5     S-6   S-7    S-8   S-9    S-0     S--    S-=    XX
-          tab       S-1    S-2  S-3    S-4     S-5     S-6   S-7    S-8   S-f10  S-f10   S--    S-=     \
-          bspc      S-,    S-.  lsft   lctl    del     [     S-9    -     =      S-0     ]             XX 
+          XX        XX     XX   XX     XX      XX      XX    XX     XX    XX     XX      XX     XX     XX
+          XX        S-1    S-2  S-3    S-4     S-5     S-6   S-7    S-8   S-f10  XX      XX     XX     XX
+          XX        S-,    S-.  lsft   lctl    del     [     S-9    -     =      S-0     ]             XX
           XX        XX     XX   XX     XX     XX      XX   XX      XX    XX     XX                      XX         XX
           XX       XX     XX               XX                     XX           XX                       XX    XX   XX   XX
 
@@ -74,8 +74,8 @@
 
           XX            XX    XX    XX     XX           XX     XX     XX    XX       XX    XX    XX    XX
           XX        XX     XX   XX     XX     XX      XX   XX      XX    XX     XX       XX        XX   XX
-          XX        A-1    A-2  A-3    A-4    A-5     A-6  A-7     A-8   XX     XX       XX        XX   XX
-          XX        C-1    C-2  C-3    C-4    C-5     C-6  C-7     C-8   XX     XX       XX             XX
+          XX        C-1    C-2  C-3    C-4    C-5     C-6  C-7     C-8   XX     XX       XX        XX   XX
+          XX        A-1    A-2  A-3    A-4    A-5     A-6  A-7     A-8   XX     XX       XX             XX
           XX        XX     XX   XX     XX     XX      XX   XX      XX    XX     XX                      XX         XX
           XX       XX     XX               XX                     XX           XX                       XX    XX   XX   XX
 

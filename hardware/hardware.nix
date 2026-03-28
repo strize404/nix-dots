@@ -4,25 +4,19 @@
   hardware.cpu.intel.updateMicrocode = true;
 
   hardware.firmware = with pkgs; [
-    firmwareLinuxNonfree
+    linux-firmware
   ];
 
   # Opengl / video hardware acceleration
-  nixpkgs.config = {
-    allowUnfree = true;
-  };
-
-  nixpkgs.config.packageOverrides = pkgs: {
-    vaapiIntel = pkgs.vaapiIntel.override { enableHybridCodec = true; };
-  };
 
   hardware.graphics = {
     enable = true;
+    enable32Bit = true;
     extraPackages = with pkgs; [
-      vaapiIntel
-      vaapiVdpau
       libvdpau-va-gl
       intel-media-driver
+      intel-vaapi-driver
+      libva-vdpau-driver
     ];
   };
 }

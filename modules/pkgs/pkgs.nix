@@ -15,8 +15,6 @@
   programs.gpu-screen-recorder.enable = true;
   programs.localsend.enable = true;
 
-  powerManagement.powertop.enable = true;
-
   environment.systemPackages = with pkgs; [
     wget
     git
