@@ -4,7 +4,7 @@
     ./flatpack.nix
     ./gaming.nix
     ./syncthing.nix
-    ./hardware.nix
+    ./gpuaxel.nix
     ./podman.nix
   ];
 }

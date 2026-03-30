@@ -8,7 +8,6 @@
 {
   imports = [
     ./hardware-configuration.nix
-    ./../../hardware
     ./../../modules
     ./../../services/universal
     ./../../services/deskonly
