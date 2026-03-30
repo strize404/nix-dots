@@ -46,6 +46,7 @@
           modules = [
             ./hosts/desktop/configuration.nix
           ];
+          specialArgs = { inherit inputs; };
         };
 
         strize-lap = nixpkgs.lib.nixosSystem {
@@ -53,6 +54,7 @@
           modules = [
             ./hosts/laptop/configuration.nix
           ];
+          specialArgs = { inherit inputs; };
         };
       };
 
