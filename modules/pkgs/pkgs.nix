@@ -35,11 +35,13 @@
 
     obsidian
     ghostty
+    qbittorrent
 
     nerd-fonts.fira-code
     nerd-fonts.jetbrains-mono
 
     gnome-tweaks
+    adw-gtk3 # use command gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
     evince # document viewer
     nautilus # gnome default file manager
     file-roller # unzip

@@ -8,6 +8,8 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    nixpkgs-c5ae371f1.url = "github:nixos/nixpkgs/0c3fc1cd3494aa52a2c111d5f18a7689fd15ab83"; # Paste this nixpkgs commit to your Flake's inputs.
+
     zen-browser = {
       url = "github:0xc000022070/zen-browser-flake";
       inputs.nixpkgs.follows = "nixpkgs";

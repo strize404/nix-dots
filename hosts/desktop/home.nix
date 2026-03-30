@@ -18,6 +18,7 @@
     krita
     blender
     kdePackages.kdenlive
+    davinci-resolve
     nur.repos.forkprince.beeper-nightly
     nur.repos.forkprince.helium-nightly
     nur.repos.forkprince.gimp
