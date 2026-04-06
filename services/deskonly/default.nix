@@ -5,6 +5,5 @@
     ./gaming.nix
     ./syncthing.nix
     ./gpuaxel.nix
-    ./podman.nix
   ];
 }
