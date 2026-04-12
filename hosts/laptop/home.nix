@@ -14,6 +14,7 @@
 
   home.packages = with pkgs; [
     audacity
+    easyeffects
     obs-studio
     krita
     blender
