@@ -11,6 +11,7 @@
 
   #controls fan to keep temp low
   services.mbpfan.enable = true;
+  services.mbpfan.aggressive = true;
 
   #increase battery life i think
   services = {
@@ -32,11 +33,11 @@
 
       # Intel GPU
       INTEL_GPU_MIN_FREQ_ON_AC = 300;
-      INTEL_GPU_MAX_FREQ_ON_AC = 800;
-      INTEL_GPU_BOOST_FREQ_ON_AC = 800;
+      INTEL_GPU_MAX_FREQ_ON_AC = 900;
+      INTEL_GPU_BOOST_FREQ_ON_AC = 900;
       INTEL_GPU_MIN_FREQ_ON_BAT = 300;
-      INTEL_GPU_MAX_FREQ_ON_BAT = 400;
-      INTEL_GPU_BOOST_FREQ_ON_BAT = 400;
+      INTEL_GPU_MAX_FREQ_ON_BAT = 450;
+      INTEL_GPU_BOOST_FREQ_ON_BAT = 500;
 
       # Runtime PM
       RUNTIME_PM_ON_AC = "auto";
@@ -51,8 +52,8 @@
       WIFI_PWR_ON_BAT = "auto";
 
       # Force TLP to always enforce BAT mode settings (good for heat)
-      TLP_DEFAULT_MODE = "BAT";
-      TLP_PERSISTENT_DEFAULT = 1;
+      # TLP_DEFAULT_MODE = "BAT";
+      # TLP_PERSISTENT_DEFAULT = 1;
 
       # Charge thresholds (ignored on your MacBook, safe to leave)
       START_CHARGE_THRESH_BAT0 = 40;
