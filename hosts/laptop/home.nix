@@ -18,11 +18,9 @@
     obs-studio
     krita
     blender
-    nur.repos.forkprince.beeper-nightly
-    nur.repos.forkprince.helium-nightly
-    nur.repos.forkprince.gimp
-    # nur.repos.lonerOrz.helium
-    #nur.repos.AusCyber.zen-browser
+    beeper
+    nur.repos.lonerOrz.helium
+    # nur.repos.AusCyber.zen-browser
   ];
 
   nixpkgs.config.allowUnfree = true;

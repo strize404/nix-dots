@@ -16,13 +16,12 @@
     audacity
     obs-studio
     krita
+    gimp
     blender
     kdePackages.kdenlive
     davinci-resolve
-    nur.repos.forkprince.beeper-nightly
-    nur.repos.forkprince.helium-nightly
-    nur.repos.forkprince.gimp
-    # nur.repos.lonerOrz.helium
+    beeper
+    nur.repos.lonerOrz.helium
     #nur.repos.AusCyber.zen-browser
   ];
 
