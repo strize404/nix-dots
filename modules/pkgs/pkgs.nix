@@ -46,6 +46,7 @@
     file-roller # unzip
     baobab # analyse disk usage in gnome env
     loupe # image viewer
-    showtime # video player
+    celluloid # video player
+    vlc # OG/better video player
   ];
 }
