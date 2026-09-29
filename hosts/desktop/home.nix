@@ -15,11 +15,16 @@
   home.packages = with pkgs; [
     audacity
     obs-studio
+
     krita
     gimp
     blender
+    godot
+    qgis
+    
     kdePackages.kdenlive
     davinci-resolve
+
     beeper
     nur.repos.lonerOrz.helium
     #nur.repos.AusCyber.zen-browser

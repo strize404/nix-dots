@@ -6,5 +6,6 @@
     ./touchpad.nix
     ./storage-optimize.nix
     ./USB-file-sharing.nix
+    ./printing.nix
   ];
 }
