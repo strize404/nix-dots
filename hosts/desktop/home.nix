@@ -16,14 +16,25 @@
     audacity
     obs-studio
 
+    pixieditor
     krita
     gimp
     blender
-    godot
-    qgis
+    # godot
+    # freecad
+    # qgis
     
     kdePackages.kdenlive
     davinci-resolve
+
+    #Adobe reimplimentation
+    # nur.repos.Skyb0rg007.flimcraft
+    # nur.repos.Skyb0rg007.lightcraft
+    # nur.repos.Skyb0rg007.photocraft
+    # nur.repos.Skyb0rg007.printcraft
+    # nur.repos.Skyb0rg007.designcraft
+    # nur.repos.Skyb0rg007.effectcraft
+    # nur.repos.Skyb0rg007.vectorcraft
 
     beeper
     nur.repos.lonerOrz.helium

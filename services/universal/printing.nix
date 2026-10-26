@@ -3,7 +3,12 @@
 
 {
 
-  # Enable CUPS to print documents.
-  services.printing.enable = false;
+  services.printing = {
+    enable = true;
+    drivers = with pkgs; [
+      foo2zjs
+      hplip
+    ];
+  };
 
 }

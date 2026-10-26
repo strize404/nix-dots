@@ -8,7 +8,10 @@
 {
   imports = [
     ./hardware-configuration.nix
-    ./../../modules
+
+    ./../../modules/universal
+    ./../../modules/laponly
+
     ./../../services/universal
     ./../../services/laponly
   ];
