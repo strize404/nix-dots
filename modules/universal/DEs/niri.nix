@@ -9,13 +9,10 @@
   ];
 
   # Greeter
-  # services.displayManager.dms-greeter = {
+  # services.displayManager.dux-greeter = {
   #   enable = true;
   #   compositor = {
   #     name = "niri"; # Required. Can be also "hyprland" or "sway"
-  #     customConfig = ''
-  #       # Optional custom compositor configuration
-  #     '';
   #   };
   #
   #   # Sync your user's DankMaterialShell theme with the greeter. You'll probably want this
@@ -23,7 +20,7 @@
   #
   #   # Custom config files for non-standard config locations
   #   configFiles = [
-  #     "/home/strize/.config/DankMaterialShell/settings.json"
+  #     "/home/strize/.config/dms/settings.json"
   #   ];
   #
   #   # Save the logs to a file
@@ -31,8 +28,5 @@
   #     save = true;
   #     path = "/tmp/dms-greeter.log";
   #   };
-  #
-  #   # Custom Quickshell Package
-  #   quickshell.package = pkgs.quickshell;
   # };
 }
