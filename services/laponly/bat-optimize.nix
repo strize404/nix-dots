@@ -9,6 +9,8 @@
     memoryPercent = 50;
   };
 
+  boot.kernel.sysctl."vm.swappiness" = 160;
+
   #controls fan to keep temp low
   services.mbpfan.enable = true;
   services.mbpfan.aggressive = true;

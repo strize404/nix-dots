@@ -18,6 +18,9 @@
   ];
 
   environment.systemPackages = with pkgs; [
+
+    gnome-tweaks
+
     gnomeExtensions.dash-to-dock
     gnomeExtensions.hide-top-bar
     gnomeExtensions.arc-menu
