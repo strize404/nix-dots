@@ -7,5 +7,6 @@
     ./storage-optimize.nix
     ./USB-file-sharing.nix
     ./printing.nix
+    ./flatpak.nix
   ];
 }
