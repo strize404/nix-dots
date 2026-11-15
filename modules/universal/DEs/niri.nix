@@ -3,6 +3,10 @@
 {
   programs.niri.enable = true;
   programs.dux-shell.enable = true;
+
+  programs.dux-files.enable = true;
+  programs.dux-calendar.enable = true;
+  
   environment.systemPackages = with pkgs; [
     xwayland-satellite
     quickshell

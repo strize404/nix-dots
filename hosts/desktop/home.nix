@@ -14,6 +14,8 @@
 
   home.packages = with pkgs; [
     audacity
+    lmms-full
+
     obs-studio
 
     pixieditor
@@ -56,8 +58,6 @@
   programs = {
     npm.enable = true;
     bun.enable = true;
-    opencode.enable = true;
-    # vscode.enable = true;
   };
 
   home.sessionVariables = {
