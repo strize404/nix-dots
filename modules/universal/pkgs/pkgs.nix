@@ -40,11 +40,8 @@
     glib # themeing
     adw-gtk3 # use command gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
     evince # document viewer
-    nautilus # gnome default file manager
-    file-roller # unzip
-    baobab # analyse disk usage in gnome env
+    xarchiver # unzip
     loupe # image viewer
-    celluloid # video player
     vlc # OG/better video player
   ];
 }

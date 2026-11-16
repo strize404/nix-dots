@@ -19,6 +19,7 @@
 
   environment.systemPackages = with pkgs; [
 
+    # nautilus # gnome default file manager
     gnome-tweaks
 
     gnomeExtensions.dash-to-dock
