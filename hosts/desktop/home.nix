@@ -14,29 +14,23 @@
 
   home.packages = with pkgs; [
     audacity
-    lmms-full
+    reaper
 
     obs-studio
 
     pixieditor
     krita
-    gimp
+    # gimp
+    
     blender
     # godot
+
     # freecad
+    # kicad
     # qgis
     
     kdePackages.kdenlive
     davinci-resolve
-
-    #Adobe reimplimentation
-    # nur.repos.Skyb0rg007.flimcraft
-    # nur.repos.Skyb0rg007.lightcraft
-    # nur.repos.Skyb0rg007.photocraft
-    # nur.repos.Skyb0rg007.printcraft
-    # nur.repos.Skyb0rg007.designcraft
-    # nur.repos.Skyb0rg007.effectcraft
-    # nur.repos.Skyb0rg007.vectorcraft
 
     beeper
     nur.repos.lonerOrz.helium

@@ -14,11 +14,11 @@
 
   home.packages = with pkgs; [
     audacity
+    reaper
 
     obs-studio
 
     krita
-    blender
     
     beeper
     
